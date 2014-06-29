@@ -25,11 +25,12 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Contácto</title>
+<title>Contacto</title>
 
 <link rel="stylesheet" type="text/css" href="./assets/plugins/jqtransformplugin/jqtransform.css" />
 <link rel="stylesheet" type="text/css" href="./assets/plugins/formValidator/validationEngine.jquery.css" />
 <link rel="stylesheet" type="text/css" href="./assets/demo.css" />
+<link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
 
 </head>
 

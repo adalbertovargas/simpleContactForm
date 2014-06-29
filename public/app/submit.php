@@ -1,6 +1,6 @@
 <?php
 
-require "phpmailer/class.phpmailer.php";
+require "./libs/phpmailer/class.phpmailer.php";
 require "config.php";
 
 session_name("fancyform");
@@ -55,17 +55,9 @@ if(count($err))
 	exit;
 }
 
+// Load Body mail
+require "msj-view.php";
 
-$msg=
-'Nombre:	'.$_POST['name'].'<br />
-Email:	'.$_POST['email'].'<br />
-IP:	'.$_SERVER['REMOTE_ADDR'].'<br /><br />
-
-Mensaje:<br /><br />
-
-'.nl2br($_POST['message']).'
-
-';
 
 
 $mail = new PHPMailer();
