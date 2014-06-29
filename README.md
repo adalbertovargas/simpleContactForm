@@ -34,6 +34,10 @@ Configs in the code
 E-mail adress and website host configuration.
 ```
 /public/app/config.php 						Ln: 37, 38
+```
+
+**Debug configuration:**
+```
 /public/app/msj-view.php 					Ln: 77 
 ```
 
