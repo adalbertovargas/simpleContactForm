@@ -31,10 +31,24 @@
 /**
  * E-mail adress and website host configuration.
  * 
- * $emailAddress: email adress, eg: contacto@adalbertovargas.com
+ * $emailAddress: email adress, eg: adalbertovargasmoreno@gmail.com
  * $webSiteName: Site's name, eg: adalbertoVargas.com 
  */
-$emailAddress = 'contacto@adalbertovargas.com';
+
+$emailAddress = 'adalbertovargasmoreno@gmail.com';
 $webSiteName = 'adalbertoVargas.com';
 
+
+/**
+ * Debbuger helper
+ *
+ * Choose between showing or not debbuger helper
+ * Set TRUE: Show debugger, FALSE: Not swow debugger.
+ */
+
+$showHelpers = FALSE;   
+    
+// Do not modify. Include kint lib
+$showHelpers == TRUE ? require ('libs/kint/kint-0.9/Kint.class.php'): define('PATCH', FALSE);
+  
 /* config end */

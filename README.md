@@ -56,7 +56,6 @@ Configs in the code
 You'll find the following directories, logically grouping common assets. You'll see something like this:
 
 ``` 
-
 ├───preview
 ├───public			=> MAIN APP DIRECTORY
 │   ├───app			=> Server side scripts

@@ -1,7 +1,6 @@
 <?php
-
-require "./libs/phpmailer/class.phpmailer.php";
 require "config.php";
+require 'libs/phpmailer/class.phpmailer.php';
 
 session_name("fancyform");
 session_start();
@@ -59,7 +58,6 @@ if(count($err))
 require "msj-view.php";
 
 
-
 $mail = new PHPMailer();
 $mail->IsMail();
 
@@ -69,6 +67,8 @@ $mail->SetFrom($_POST['email'], $_POST['name']);
 $mail->Subject = "Nuevo mensaje de  ".$_POST['name']." | " . $webSiteName;
 
 $mail->MsgHTML($msg);
+  
+!dd( $mail );
 
 $mail->Send();
 

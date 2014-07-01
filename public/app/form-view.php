@@ -98,11 +98,11 @@
 
 </div>
 
-
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 <!--
-<script type="text/javascript" src="./assets/lib/jquery/jquery-1.3.2.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
 -->
+<script type="text/javascript" src="./assets/lib/jquery/jquery-1.3.2.min.js"></script>
+
 <script type="text/javascript" src="./assets/plugins/jqtransformplugin/jquery.jqtransform.js"></script>
 <script type="text/javascript" src="./assets/plugins/formValidator/jquery.validationEngine.js"></script>
 
