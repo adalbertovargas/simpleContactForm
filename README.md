@@ -38,12 +38,12 @@ Configs in the code
 **Setup Environment:** E-mail adress and website host configuration.
 
 ```
-/public/app/config.php 	=>	Ln: 37, 38
+/public/app/config.php 	=>	Ln: 38, 39
 ```
 
 **Debug configuration**
 ```
-/public/app/msj-view.php 	=>	Ln: 77 
+/public/app/config.php 	=>	Ln: 49 
 ```
 
 **Jquery lib selector: ** Choise between local or remote Jquery library
