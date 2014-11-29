@@ -2,9 +2,9 @@
 require "config.php";
 require 'libs/phpmailer/class.phpmailer.php';
 
-session_name("fancyform");
-session_start();
 
+session_start();
+session_name("fancyform");
 
 foreach($_POST as $k=>$v)
 {
@@ -68,8 +68,6 @@ $mail->Subject = "Nuevo mensaje de  ".$_POST['name']." | " . $webSiteName;
 
 $mail->MsgHTML($msg);
   
-!dd( $mail );
-
 $mail->Send();
 
 
