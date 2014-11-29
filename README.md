@@ -18,15 +18,13 @@ Image 2. Validation engine alert.
 
 ![preview capture 03](preview/Captura-03.PNG)
 
-Image 3. Sending message proccess.
+Image 4. Succesfull message sent advice.
 
 ![preview capture 04](preview/Captura-04.PNG)
 
-Image 4. Succesfull message sent advice.
-
-![preview capture 05](preview/Captura-05.PNG)
-
 Image 5. Preview message at email inbox.
+
+
 
 You can find these preview screnshots in folder `preview/`.
 

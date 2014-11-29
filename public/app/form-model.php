@@ -1,4 +1,5 @@
 <?php
+session_cache_limiter('none');
 session_name("fancyform");
 session_start();
 

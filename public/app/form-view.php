@@ -38,7 +38,7 @@
       <table width="100%" border="0" cellspacing="0" cellpadding="5">
         <tr>
           <td width="15%"><label for="name">Nombre</label></td>
-          <td width="60%"><input type="text" size="19" placeholder="Ej. Humberto Robina" class="validate[required,custom[onlyLetter]]" name="name" id="name" value="<?=$_SESSION['post']['name']?>" /></td>
+          <td width="60%"><input type="text" size="19" placeholder="Ej. Humberto Robina" class="validate[required]" name="name" id="name" value="<?=$_SESSION['post']['name']?>" /></td>
           <td width="15%" id="errOffset">&nbsp;</td>
         </tr>
         <tr>
@@ -62,13 +62,11 @@
       <?=$success?>
     </div>
   <div class="tutorial-info"> 
-  Recibirá respuesta vía correo electrónico.
+  Recibirá respuesta vía correo electrónico. De preferencia escriba su número telefónico en el mensaje.
   </div>
 </div>
-<!--
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
--->
-<script type="text/javascript" src="./assets/lib/jquery/jquery-1.3.2.min.js"></script>
+<!-- script type="text/javascript" src="./assets/lib/jquery/jquery-1.3.2.min.js"></script -->
 <script type="text/javascript" src="./assets/plugins/jqtransformplugin/jquery.jqtransform.js"></script>
 <script type="text/javascript" src="./assets/plugins/formValidator/jquery.validationEngine.js"></script>
 <script type="text/javascript" src="./assets/script.js"></script>

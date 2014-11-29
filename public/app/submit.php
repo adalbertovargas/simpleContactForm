@@ -2,7 +2,7 @@
 require "config.php";
 require 'libs/phpmailer/class.phpmailer.php';
 
-
+session_cache_limiter('none');
 session_start();
 session_name("fancyform");
 
